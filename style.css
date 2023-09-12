@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+    
+}
+
+.square{
+    background-color: yellow;
+}
+
+.newColor{
+    background-color: black;
+}
