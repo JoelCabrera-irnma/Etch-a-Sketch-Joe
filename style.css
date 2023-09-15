@@ -1,14 +1,45 @@
+body{
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 4px;
+}
 .contenedor{
     display: grid;
-    width: 500px;
-    height: 500px;
+    width: 460px;
+    height: 460px;
     border: 1px solid blue;
-    
+    background: white;
+}
+
+.contenedor-top{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.cont-button{
+    display: flex;
+    gap: 10px;
+}
+
+.text{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+.cont-button > button{
+    padding: 2px 12px;
 }
 
 .square{
-    background-color: yellow;
+    background-color: beige;
 }
+
 
 .newColor{
     background-color: black;
