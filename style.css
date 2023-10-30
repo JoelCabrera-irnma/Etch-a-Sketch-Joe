@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
+
 body{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+.center{
+    grid-column: 2;
     margin: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Metal Mania',serif;
 }
 
 p{
     margin: 0;
     margin-bottom: 4px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 .contenedor{
     display: grid;
@@ -31,9 +42,10 @@ p{
     font-size: 12px;
     font-style: italic;
     text-align: center;
+    margin: 6px 0;
 }
 .cont-button > button{
-    padding: 2px 12px;
+    padding: 2px 18px;
 }
 
 .square{
@@ -49,11 +61,46 @@ p{
     background-color: red;
 }
 
-.click{
+#click{
     background-color: red;
     border-radius: 10px;
     padding: 4px 8px;
     color: white;
     font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#click:hover{
+    background-color: rgba(255, 0, 0, 0.775);
+}
+
+button{
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(227, 222, 222);
     letter-spacing: 1px;
+}
+
+button:hover{
+    background-color: rgb(219, 215, 215);
+}
+
+.hero-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left img{
+    width: 18vw;
+    padding-bottom: 20px;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-right img{
+    width: 16vw;
+    padding-bottom: 80px;
 }
