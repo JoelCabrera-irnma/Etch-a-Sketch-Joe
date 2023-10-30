@@ -2,7 +2,7 @@
 let colorTrazo = 'black'
 let click = true;
 
-const clicker = document.querySelector('.click')
+const clicker = document.querySelector('#click')
 clicker.addEventListener('click',createSquare)
 
 document.querySelector('body').addEventListener('click',function(e){
