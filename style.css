@@ -48,3 +48,12 @@ p{
 .colorRed{
     background-color: red;
 }
+
+.click{
+    background-color: red;
+    border-radius: 10px;
+    padding: 4px 8px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

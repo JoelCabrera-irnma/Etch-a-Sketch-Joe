@@ -69,6 +69,10 @@ document.querySelector('.newGrilla').addEventListener('click',newInput)
 
 function newInput(){
     input = prompt('Ingresa un nuevo valor de lado de cuadricula');
+    if (input>100||input<1){
+        alert('Valor no aceptado');
+        newInput();
+    }
     createSquare()
 }
 
